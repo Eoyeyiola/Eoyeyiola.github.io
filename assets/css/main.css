@@ -3126,4 +3126,11 @@ input, select, textarea {
 	flex: 1;
 	min-width: 250px;
   }
-	  
+.btn {
+  display: inline-block;
+  background-color: #007acc;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
