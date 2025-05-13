@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog | Eoyeyiola</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
 
+  <!-- Header -->
+  <header id="header">
+    <h1><a href="index.html">Eoyeyiola</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Blog Content -->
+  <section id="main" class="container">
+    <header>
+      <h2>Blog</h2>
+      <p>Insights, data projects, and reflections.</p>
+    </header>
+
+    <div class="box">
+      <h3><a href="blog/post1.html">What is Data & Why Does It Matter for Your Business?</a></h3>
+      <p>A walk-through the definition of data in real-life terms .</p>
+      <footer>
+        <a href="blog/post1.html" class="button alt small">Read More</a>
+      </footer>
+    </div>
+
+    <!-- Add more blog entries here -->
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <ul class="copyright">
+      <li>&copy; Eoyeyiola. All rights reserved.</li>
+    </ul>
+  </footer>
+
+</body>
+</html>
