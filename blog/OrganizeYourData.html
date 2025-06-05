@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn how to organize your data using Excel or Google Sheets. Discover what clean data looks like, common issues, and how to fix them.">
+  <meta name="keywords" content="clean data, Excel, Google Sheets, small business, data organization">
+  <meta name="author" content="Ema Oyeyiola">
+
+  <!-- Open Graph (for social media) -->
+  <meta property="og:title" content="How to Organize Your Data (Using Excel or Google Sheets)" />
+  <meta property="og:description" content="This lesson focuses on structuring your data to get the best insights."/>
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://eoyeyiola.github.io/blog/OrganizeYourData.html" />
+  <meta property="og:image" content="https://eoyeyiola.github.io/assets/DataOrganize.jpg" /> <!-- Replace with your image path -->
+<link rel="icon" href="https://eoyeyiola.github.io/assets/favicon.ico" type="image/x-icon" />
+
+  <title>Organize Your Data | Data ED</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Organize Your Data (Using Excel or Google Sheets)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    h1, h2, h3 { color: #2c3e50; }
+    table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f4f4f4; text-align: left; }
+    .section { margin-bottom: 30px; }
+    .highlight { background-color: #e98181; padding: 10px; border-left: 4px solid #e86468; }
+  </style>
+</head>
+<body>
+<a href="/blog.html">← Back to Blog</a>
+  <h1>How to Organize Your Data (Using Excel or Google Sheets)</h1>
+  <p><strong>Published:</strong> June 6th, 2025</p>
+  <p><strong>Learning Objective:</strong> Help small business owners organize existing data for better insights.</p>
+  <p><strong>Introduction:</strong><br>
+  A messy spreadsheet is a nightmare that even the most powerful tools can’t fix. If you are tracking sales, managing client bookings, or planning promotions, your insights are only as good as your data. Clean, well-structured data is essential for every business.</p>
+<img src="DataOrganize.jpg" style="display:block; margin:auto;" alt="Organized Data">
+
+  <h2>What Does Clean Data Look Like?</h2>
+  <ol>
+    <li><strong>Clear Headers:</strong> Columns should have clear, descriptive titles that mirror the information they hold. For example, <em> "Date" </em>, not <em>“When”</em>, <em>“Customer Name”</em>, not <em>“person or who”</em>, <em>“Amount Paid”</em>, not <em>“how much” </em> are good titles for columns.</li>
+    <li><strong>One Row = One Record:</strong> Every row should represent a single transaction or entry.</li>
+    <li><strong>Consistent Formatting:</strong>
+      <ul>
+        <li>Dates must be in the same format of MM/DD/YYYY. Don’t combine “08/20/1955” and “20th August 1955”.</li>
+        <li>Numeric values only- Don’t mix Numbers with text- Don’t combine “35” with “Thirty-five”.</li>
+        <li>Avoid symbols like $20 or 30% in the numeric fields. Use raw values instead.</li>
+      </ul>
+    </li>
+    <li><strong>No Merged Cells:</strong> Merged cells change the structure, and makes analysis more difficult. You want to keep your sheet flat and simple.
+</li>
+  </ol>
+
+  <h2>Common Issues to Watch For</h2>
+  <ul>
+    <li>Missing values: All values should be filled. </li>
+    <li>Mismatched formats:  Don’t store numbers as text or as mixed formats. </li>
+    <li>Inconsistent nulls: Use a default placeholder, like “Unkown”, or an estimated value, say mean, rather then leave them blank. </li>
+  </ul>
+
+  <h2>Case Study: Bessie’s Skincare Data</h2>
+  <img src="Bessie.jpg" style="display:block; margin:auto;" alt="Bessie's Skincare">
+  <p>Bessie runs a small but growing skincare shop and has been collecting order data for over three years. Inspired by Ema's Data ED series, she finally decides to dig into her old spreadsheets. She finds out that she has:</p>
+  <ul>
+    <li>Misspelled headers like "Prodct Sold" and "How Much?"</li>
+    <li>Missing customer names and addresses</li>
+    <li>Inconsistent price formats: "$20", "twenty"</li>
+    <li>Merged cells and vague sales dates like "Jan" or "Last Week"</li>
+  </ul>
+
+  <h3>Original Messy Table:</h3>
+  <table>
+    <tr><th>Date of Purchas</th><th>Prodct Sold</th><th>Qty</th><th>Qty ($)</th><th>How much?</th></tr>
+    <tr><td>05/01/25</td><td>Adey</td><td>Soap</td><td>five</td><td>$10</td><td>50</td></tr>
+    <tr><td>05/08/25</td><td>Bambi</td><td>Cream</td><td>3</td><td>$15</td><td></td></tr>
+    <tr><td></td><td>Chinedu</td><td>Soap</td><td></td><td>10</td><td>sixty</td></tr>
+    <tr><td>May 15</td><td>Dolly</td><td>Lotion</td><td>4</td><td>twenty</td><td>80</td></tr>
+    <tr><td>5/22/25</td><td>Ejiro</td><td>Cream</td><td>seven</td><td>15</td><td></td></tr>
+    <tr><td>05/29/25</td><td>Fiona</td><td></td><td>2</td><td>twenty</td><td>40</td></tr>
+  </table>
+  
+  <h2>How Bessie Fixed Her Data</h2>
+  <ul>
+    <li>Unmerged all cells- to keep one data point per cell.</li>
+    <li>Renamed columns clearly- “Product Name,” “Order Date,” “Quantity,” “Price,” etc.</li>
+    <li>Standardized dates, numbers, and text formats- numbers without currency signs, dates in proper format (MM/DD/YYYY), and consistent capitalization.</li>
+    <li>Replaced missing records- by either retrieving records from receipts or leaving them blank but labeled for review.</li>
+    <li>Split combined columns- some had “2 jars - $50” in one cell. She split these into Quantity and Price, and added a discount column to track how much was given off each sale.</li>
+  </ul>
+
+  <h3>Cleaned Table:</h3>
+  <table>
+    <tr><th>Date</th><th>Customer Name</th><th>Product</th><th>Quantity Sold</th><th>Unit Price</th><th>Total Sale</th></tr>
+    <tr><td>2025-05-04</td><td>Adey</td><td>Soap</td><td>5</td><td>10</td><td>50</td></tr>
+    <tr><td>2025-05-11</td><td>Bambi</td><td>Cream</td><td>3</td><td>15</td><td>45</td></tr>
+    <tr><td>2025-05-18</td><td>Chinedu</td><td>Soap</td><td>6</td><td>10</td><td>60</td></tr>
+    <tr><td>2025-05-25</td><td>Dolly</td><td>Lotion</td><td>4</td><td>20</td><td>80</td></tr>
+    <tr><td>2025-06-01</td><td>Ejiro</td><td>Cream</td><td>7</td><td>15</td><td>105</td></tr>
+    <tr><td>2025-06-08</td><td>Fiona</td><td>Lotion</td><td>2</td><td>20</td><td>40</td></tr>
+  </table>
+
+  <h2>What She Plans To Do Going Forward</h2>
+  <p>To avoid repeating the mess, Bessie put a simple system in place: </p>
+   <ul>
+    <li><strong>New Template:</strong> A clean Excel/Google Sheet for each new month</li>
+    <li><strong>Data Entry Rules:</strong> No merged cells, dropdowns for products, date format, or required fields</li>
+    <li><strong>Weekly Reviews:</strong> Friday data checks</li>
+    <li><strong>Backups:</strong> Monthly saves with version names like <code>March2025_Sales.xlsx</code></li>
+  </ul>
+
+ <div class="section highlight">
+    <h2>In Summary</h2>
+   <p>Clean data isn’t about being perfect, but about being consistent, clear, and structured. Like Bessie, you don’t need fancy software to get started, just a plan.</p>
+<p><a href="Checklist.jpg" target="_blank">Download: Clean Data Checklist</a></p>   
+</div>
+ </div>
+
+ </body>
+<p>Need help understanding your data? Let’s talk!</p>
+
+<a href="/blog.html">← Back to Blog</a>
+<p><a href="/index.html">← Back to Home</a></p>
+</body>
+</html>
